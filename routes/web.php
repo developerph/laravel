@@ -23,7 +23,6 @@ Route::get('/', 'HomeController@index')->name('home');
 
 // GO BACK -> Routing > Generating URLs To Named Routes
 // GO BACK -> Routing > Inspecting The Current Route
-
 // Route::match(['get', 'post'], '/', function () {});
 // Route::any('foo', function () {});
 // Route::redirect('/test', '/', 301);
@@ -35,5 +34,3 @@ Route::get('/', 'HomeController@index')->name('home');
 // Route::get('test/{id}/{name}', function ($id, $name) {})->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
 // return redirect()->route('home');
 // Route::redirect('/test', '/', 301);
-// 
-
